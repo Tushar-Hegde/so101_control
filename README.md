@@ -1,7 +1,7 @@
 
 # SO101 Arm Control
 
-This repo implements inverse kinematics using ikpy the open source SO101 arm model.
+This repo implements inverse kinematics using ikpy on the open source SO101 arm model.
 It should work for any arm model so long as the URDF and amr_config are accurate and uploaded in the right directory. (Not tested with other models yet)
 
 ## Execution Flow
@@ -14,16 +14,10 @@ When prompted, move the arm to its home position, then maximum and then minimum 
 
 ### Keyboard Teleop
 Run<br>
-```python3 scipts/keyboardinput.py``` in your terminal.<br>
+```python3 scipts/final.py``` in your terminal.<br>
 The arm will go to its home position, after which you can control it using :<br>
 w/s - forwards/backwards; a/d - left/right; r/f - up/down;<br>
 You will have to give the input through the terminal.<br>
-
-### Direct x,y,z coordinate control
-Run<br>
-```python3 scipts/final.py``` in your terminal<br>
-The arm will go to its home position.<br>
-When prompted, you can input the x,y,z coordinates you want it to go to. <br>
 It will try its best to go there within its work volume.<br>
 
 ### NOTES : 
