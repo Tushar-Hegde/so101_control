@@ -32,13 +32,13 @@ It will try its best to go there within its work volume.
 
 
 ## Demos
-These demos were captured in the EECE expo '26 held at IIT Dharwad, where the project won the "Best UG Project" title. \n
-<img width="478" height="850" alt="WhatsAppVideo2026-09-23at16 31 54-ezgif com-optimize" src="https://github.com/user-attachments/assets/34cb8a48-e18c-42b5-8f50-8ca89dd7d2aa" /> \n
-Homing to starting position \n
-<img width="478" height="850" alt="ezgif com-optimize (1)" src="https://github.com/user-attachments/assets/48adeb2a-e4c4-4cc9-8ba1-76e9e87dc546" /> \n
-Keyboard control \n
-<img width="900" height="1600" alt="WhatsApp Image 2026-09-23 at 16 31 54" src="https://github.com/user-attachments/assets/f82eca2e-fc87-4114-9d94-c25513e64671" /> \n
-<img width="1600" height="900" alt="WhatsApp Image 2026-09-23 at 16 31 55" src="https://github.com/user-attachments/assets/e112c15d-d225-4215-97ae-fa19dcccbc14" /> \n
+These demos were captured in the EECE expo '26 held at IIT Dharwad, where the project won the "Best UG Project" title. <br>
+<img width="478" height="850" alt="WhatsAppVideo2026-09-23at16 31 54-ezgif com-optimize" src="https://github.com/user-attachments/assets/34cb8a48-e18c-42b5-8f50-8ca89dd7d2aa" /> <br>
+Homing to starting position <br>
+<img width="478" height="850" alt="ezgif com-optimize (1)" src="https://github.com/user-attachments/assets/48adeb2a-e4c4-4cc9-8ba1-76e9e87dc546" /> <br>
+Keyboard control <br>
+<img width="900" height="1600" alt="WhatsApp Image 2026-09-23 at 16 31 54" src="https://github.com/user-attachments/assets/f82eca2e-fc87-4114-9d94-c25513e64671" /> <br>
+<img width="1600" height="900" alt="WhatsApp Image 2026-09-23 at 16 31 55" src="https://github.com/user-attachments/assets/e112c15d-d225-4215-97ae-fa19dcccbc14" /> <br>
 
 
 ## Contributors
