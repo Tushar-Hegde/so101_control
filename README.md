@@ -7,29 +7,28 @@ It should work for any arm model so long as the URDF and amr_config are accurate
 ## Execution Flow
 
 ### Calibration
-Before attempting automated motion, calibrate the arm to establish physical boundaries and joint limits.
-Run
-```python3 scipts/calibrate_arm.py``` or the equivalent on your machine.
-When prompted, move the arm to its home position, then maximum and then minimum safe rotation (For all degrees of freedom, including gripper).
+Before attempting automated motion, calibrate the arm to establish physical boundaries and joint limits.<br>
+Run<br>
+```python3 scipts/calibrate_arm.py``` or the equivalent on your machine.<br>
+When prompted, move the arm to its home position, then maximum and then minimum safe rotation (For all degrees of freedom, including gripper).<br>
 
 ### Keyboard Teleop
-Run
-```python3 scipts/keyboardinput.py``` in your terminal.
-The arm will go to its home position, after which you can control it using :
-w/s - forwards/backwards; a/d - left/right; r/f - up/down;
-You will have to give the input through the terminal.
+Run<br>
+```python3 scipts/keyboardinput.py``` in your terminal.<br>
+The arm will go to its home position, after which you can control it using :<br>
+w/s - forwards/backwards; a/d - left/right; r/f - up/down;<br>
+You will have to give the input through the terminal.<br>
 
 ### Direct x,y,z coordinate control
-Run
-```python3 scipts/final.py``` in your terminal
-The arm will go to its home position.
-When prompted, you can input the x,y,z coordinates you want it to go to. 
-It will try its best to go there within its work volume.
+Run<br>
+```python3 scipts/final.py``` in your terminal<br>
+The arm will go to its home position.<br>
+When prompted, you can input the x,y,z coordinates you want it to go to. <br>
+It will try its best to go there within its work volume.<br>
 
 ### NOTES : 
-1. When you run the keyboard or direct controls, the arm moves to its home position. Make sure it is unobstructed and you are safely out of its path.
-2. If commands are given to go outside the work volume, it does not reject the command. It tries it's best to go there within its constraints. If you continuosly give a command to go outside its work volume in the keyboard control, you will have to give the oppsite commands equally to bring it back to its work volume. Operating it far away from its work volume may cause jerkiness as it tries to correct and reach the specified point.
-
+1. When you run the keyboard or direct controls, the arm moves to its home position. Make sure it is unobstructed and you are safely out of its path.<br>
+2. If commands are given to go outside the work volume, it does not reject the command. It tries it's best to go there within its constraints. If you continuosly give a command to go outside its work volume in the keyboard control, you will have to give the oppsite commands equally to bring it back to its work volume. Operating it far away from its work volume may cause jerkiness as it tries to correct and reach the specified point.<br>
 
 ## Demos
 These demos were captured in the EECE expo '26 held at IIT Dharwad, where the project won the "Best UG Project" title. <br>
